@@ -1,0 +1,54 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Oct 21 09:38:37 2019
+
+@author: lagonzalez
+"""
+
+#----------------------------------------- definitions---------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#----------------------------------------- definitions---------------------------------------------------------
+
+
+#----------------------------------------- Main program---------------------------------------------------------
+
+
+print("--------------------------------------------------")
+number_of_coordinates = int(input("Enter the amount of coordinated you would like to compute: "))
+mylist_X = [None] * number_of_coordinates
+mylist_Y = [None] * number_of_coordinates
+
+
+print("--------------------------------------------------")
+for i in range (number_of_coordinates):
+    print("--------------------------------------------------")
+
+    mylist_X = int(input("Enter x coordinates: " ))
+    mylist_Y = int(input("Enter y coordinates: " ))
+    print("--------------------------------------------------")
+    
+    
+print (mylist_X)
+print (mylist_Y)

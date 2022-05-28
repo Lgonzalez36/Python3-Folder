@@ -1,0 +1,51 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Oct  2 09:52:53 2019
+
+@author: lagonzalez
+"""
+
+
+def findMin (someList):
+    
+    
+    min = someList[0]
+    for i in range (0,10,1):
+       if (someList[i] < min):
+           min = someList[i]
+    return min
+
+
+
+numbers = [55, 2, 3, 4, 5, 6, 7, 8, 9, 10]    
+x = findMin(numbers)
+    #searches somelist of the min value wasa 
+    #returns the min value
+#def findMinLocation(someList):
+    
+    
+    
+    #returns the INDEX od where the min calue was
+    #found insaide somelist
+#def getAvg(someList):
+    
+    
+    
+    # return avg of all numbers in someList
+#def copyList(someList):
+    
+    
+    
+    # return a SEPARATE COPY of someList
+#def searchList (someList, someItem):
+    
+    
+    
+
+    # return True: if someItemis found insomeList
+    # return False: if someItemis not found in someList
+    
+findMin(numbers) 
+
+print(x)
